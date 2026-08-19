@@ -1,0 +1,1 @@
+trojan://humanity@172.64.148.197:443?path=%2Fassignment&security=tls&host=www.cachefly.net#IAM
