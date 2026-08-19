@@ -1,4 +1,0 @@
-trojan://humanity@172.64.148.197:443?path=%2Fassignment&security=tls&host=www.calmlunch.com&type=ws&sni=www.calmlunch.com#IAM6_10V2RAY1
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@cloudapi.snap.com:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#IAM%20%2A6%20IP%2010%20FIX2
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@bestoftweets-dev.twitter.com:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#IAM%20%2A6%20IP%2010%20FIX3
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@abs-cloudflare.twimg.com:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#IAM%20%2A6%20IP%2010%20FIX4

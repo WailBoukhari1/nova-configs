@@ -1,4 +1,0 @@
-vless://335844d7-785b-4508-b871-ad96b393f0d7@www.rfhospital.org:80?path=%2Fimran&security=none&encryption=none&host=Shawonvip.dev&type=ws#JIO%20Free-Net%20New%20Sni%201
-vless://0d5d9623-ee1a-4198-a3b6-4fcc44b9cb95@myjiostatic.cdn.jio.com:80?path=%2Fgoldadmin&security=none&encryption=none&host=toofandev.com&type=ws#JIO%20Free-Net%20New%20Sni%202
-vless://0d5d9623-ee1a-4198-a3b6-4fcc44b9cb95@rfhospital.cdn.jio.com:80?path=%2Fgoldadmin&security=none&encryption=none&host=toofandev.com&type=ws#JIO%20Free-Net%20New%20Sni%203
-vless://eb0709c6-ae26-4a96-ae86-4cf836386621@jyuac.xxxvpnx.net:80?path=%2Fvless&security=none&encryption=none&host=myvi.in&type=ws&sni=vyoca.ekim.site#INDIA%20Vi%20Bihar%20Free-Net%20Fix
