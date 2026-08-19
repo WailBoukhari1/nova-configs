@@ -1,0 +1,2 @@
+vless://a5a275f8-c688-4c23-9228-023630eb1310@dutvh.xrptunnel.xyz:80?path=%2Fvless&security=none&encryption=none&host=mmsc.mms.o2.co.uk&type=ws#UK%20%20GIFFGAFF%20-O2%20-TESCO
+vless://80f05b90-70ae-4520-b497-042f3e8b8b7e@vtlsg.xrptunnel.xyz:443?path=%2Fvless&security=tls&encryption=none&host=vtlsg.xrptunnel.xyz&type=ws&sni=downloads.vodafone.co.uk#UK%20%20VodafoneAsdaVoxi
