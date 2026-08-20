@@ -1,0 +1,1 @@
+vless://f5c215f6-2c65-4d09-bd53-919bcef1b1b9@econetwireless.co.za:443?path=%2Fvless%2F&security=tls&encryption=none&host=xrp-page.xrp-page.dynv6.net&fp=randomized&type=ws&allowInsecure=1&sni=xrp-page.xrp-page.dynv6.net#Zim%20Eco-Net%20Free%20V2ray%200

@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-  <channel>
-    <title>Nova Tunnel</title>
-    <link>https://github.com/WailBoukhari1/nova-configs</link>
-    <description>Nova Tunnel app updates</description>
-    <item>
-      <title>Nova Tunnel 4.1.1</title>
-      <link>https://github.com/WailBoukhari1/nova-configs</link>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <enclosure url="https://github.com/WailBoukhari1/nova-configs/releases" type="application/vnd.android.package-archive" length="0"/>
-    </item>
-  </channel>
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<channel>
+<title>Nova Tunnel</title>
+<description>Nova Tunnel updates (Hiddify fork, single-source configs).</description>
+<item>
+<title>Nova Tunnel 4.1.1</title>
+<pubDate>Thu, 20 Aug 2026 15:12:47 +0000</pubDate>
+<enclosure url="https://github.com/WailBoukhari1/nova-configs/releases/latest" sparkle:version="40101" sparkle:shortVersionString="4.1.1" type="application/octet-stream" />
+</item>
+</channel>
 </rss>

@@ -1,20 +1,58 @@
 {
-  "profiles": [
-    {
-      "region": ["other", "af", "ir"],
-      "title": {
-        "en": "Nova Tunnel - All countries",
-        "fa": "نوا تانل - همه کشورها"
-      },
-      "sublink": "https://raw.githubusercontent.com/WailBoukhari1/nova-configs/main/subscription.txt",
-      "tags": {
-        "en": ["bee", "v2ray", "free"],
-        "fa": ["بی", "v2ray", "رایگان"]
-      },
-      "consent": {
-        "en": "This subscription provides free community configs from the Nova Tunnel pack. Update it from the Servers page for freshest data.",
-        "fa": "این اشتراک کانفیگ‌های رایگان جامعه را از پک نوا تانل فراهم می‌کند."
-      }
-    }
-  ]
+ "profiles": [
+  {
+   "region": [
+    "af",
+    "dz",
+    "au",
+    "co",
+    "eg",
+    "et",
+    "de",
+    "in",
+    "ir",
+    "iq",
+    "jo",
+    "ke",
+    "kw",
+    "ma",
+    "pk",
+    "ph",
+    "gb",
+    "za",
+    "sy",
+    "tz",
+    "th",
+    "ug",
+    "zw"
+   ],
+   "title": {
+    "en": "Nova Tunnel - All countries",
+    "fa": "نوا تانل - همه کشورها"
+   },
+   "sublink": "https://raw.githubusercontent.com/WailBoukhari1/nova-configs/main/subscription.txt",
+   "tags": {
+    "en": [
+     "29 ISPs",
+     "453 configs",
+     "Free",
+     "Fastest-auto"
+    ],
+    "fa": [
+     "رایگان",
+     "همه کشورها"
+    ]
+   },
+   "consent": {
+    "en": "Free community servers, auto-selected fastest per country/ISP.",
+    "fa": "سرورهای رایگان با انتخاب خودکار سریع‌ترین"
+   }
+  }
+ ],
+ "meta": {
+  "generated": "2026-08-20T15:12:47Z",
+  "isp_groups": 29,
+  "configs": 453,
+  "links": 58
+ }
 }
