@@ -1,0 +1,20 @@
+{
+  "profiles": [
+    {
+      "region": ["other", "af", "ir"],
+      "title": {
+        "en": "Nova Tunnel - All countries",
+        "fa": "نوا تانل - همه کشورها"
+      },
+      "sublink": "https://raw.githubusercontent.com/WailBoukhari1/nova-configs/main/subscription.txt",
+      "tags": {
+        "en": ["bee", "v2ray", "free"],
+        "fa": ["بی", "v2ray", "رایگان"]
+      },
+      "consent": {
+        "en": "This subscription provides free community configs from the Nova Tunnel pack. Update it from the Servers page for freshest data.",
+        "fa": "این اشتراک کانفیگ‌های رایگان جامعه را از پک نوا تانل فراهم می‌کند."
+      }
+    }
+  ]
+}
