@@ -1,7 +1,7 @@
 {
   "format": "nova-catalog",
   "version": 2,
-  "generatedAt": "2026-08-21T23:28:36Z",
+  "generatedAt": "2026-08-21T23:28:56Z",
   "refreshIntervalSeconds": 21600,
   "selectionStrategy": "one-profile-per-isp-fastest-failover",
   "countries": [
