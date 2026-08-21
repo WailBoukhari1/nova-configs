@@ -1,7 +1,7 @@
 {
   "format": "nova-catalog",
   "version": 2,
-  "generatedAt": "2026-08-21T23:23:04Z",
+  "generatedAt": "2026-08-21T23:28:36Z",
   "refreshIntervalSeconds": 21600,
   "selectionStrategy": "one-profile-per-isp-fastest-failover",
   "countries": [
@@ -12,62 +12,51 @@
           "operator": "IAM",
           "profileName": "IAM",
           "strategy": "fastest-failover",
-          "candidateCount": 8,
+          "candidateCount": 12,
           "candidates": [
-            {
-              "id": "5b14953c73ccc2f9",
-              "name": "IAM ⭐ V2RAY VPS 1  1",
-              "type": "TROJAN",
-              "link": "trojan://f27761e5-929e-4a94-8b3a-656c3f428961@104.18.37.127:443?security=tls&type=ws&sni=eu.avn.qzz.io&host=eu.avn.qzz.io&path=%2Ftrojan-ws#IAM%20%E2%AD%90%20V2RAY%20VPS%201%20%201",
-              "latencyMs": 289,
-              "verification": "transport-reachable",
-              "verificationDetail": "tls-ws-transport",
-              "checkedAt": "2026-08-21T23:22:53Z",
-              "priority": 1
-            },
             {
               "id": "0ada756216b71216",
               "name": "server1",
               "type": "TROJAN",
               "link": "trojan://KINGDOM8fa373@104.18.37.127:443?security=tls&type=ws&sni=bilal.sinko7.qzz.io&host=bilal.sinko7.qzz.io&path=%2Ftrojan#server1",
-              "latencyMs": 307,
+              "latencyMs": 324,
               "verification": "transport-reachable",
               "verificationDetail": "tls-ws-transport",
-              "checkedAt": "2026-08-21T23:22:54Z",
-              "priority": 2
+              "checkedAt": "2026-08-21T23:28:26Z",
+              "priority": 1
             },
             {
-              "id": "47e1c7f10b7a1bc3",
-              "name": "1787183922635",
+              "id": "5b14953c73ccc2f9",
+              "name": "IAM ⭐ V2RAY VPS 1  1",
               "type": "TROJAN",
-              "link": "trojan://685ac0c7-304a-4ad1-a10d-906fa871de1d@crazygames.ro:443?security=tls&type=ws&sni=bilal6.arkhilsmarty.co.uk&host=bilal6.arkhilsmarty.co.uk&path=%2Ftrojan-ws#1787183922635",
-              "latencyMs": 527,
+              "link": "trojan://f27761e5-929e-4a94-8b3a-656c3f428961@104.18.37.127:443?security=tls&type=ws&sni=eu.avn.qzz.io&host=eu.avn.qzz.io&path=%2Ftrojan-ws#IAM%20%E2%AD%90%20V2RAY%20VPS%201%20%201",
+              "latencyMs": 372,
               "verification": "transport-reachable",
               "verificationDetail": "tls-ws-transport",
-              "checkedAt": "2026-08-21T22:32:57Z",
-              "priority": 3
+              "checkedAt": "2026-08-21T23:28:26Z",
+              "priority": 2
             },
             {
               "id": "a4449e37a126967c",
               "name": "IAM ⭐ SSL VPS 1 iOS",
               "type": "SSH",
               "link": "ssh://server1:1@bilal.sinko7.qzz.io:443?nova_mode=2&nova_sni=www.google.com&nova_tls_insecure=1&nova_route=server_tls#IAM%20%E2%AD%90%20SSL%20VPS%201%20iOS",
-              "latencyMs": 689,
+              "latencyMs": 718,
               "verification": "transport-reachable",
               "verificationDetail": "ssh-authenticated+forwarding",
-              "checkedAt": "2026-08-21T23:22:52Z",
-              "priority": 4
+              "checkedAt": "2026-08-21T23:28:25Z",
+              "priority": 3
             },
             {
               "id": "14b30864f7569683",
               "name": "IAM ⭐ SSL VPS 2",
               "type": "SSH",
               "link": "ssh://server1:1@bilal.sinko7.qzz.io:443?nova_mode=2&nova_sni=google.com&nova_tls_insecure=1&nova_route=server_tls#IAM%20%E2%AD%90%20SSL%20VPS%202",
-              "latencyMs": 715,
+              "latencyMs": 790,
               "verification": "transport-reachable",
               "verificationDetail": "ssh-authenticated+forwarding",
-              "checkedAt": "2026-08-21T23:22:54Z",
-              "priority": 5
+              "checkedAt": "2026-08-21T23:28:26Z",
+              "priority": 4
             },
             {
               "id": "813b47b1f3857010",
@@ -78,6 +67,17 @@
               "verification": "transport-reachable",
               "verificationDetail": "ssh-authenticated+forwarding",
               "checkedAt": "2026-08-21T23:22:53Z",
+              "priority": 5
+            },
+            {
+              "id": "823ba8661469bfa9",
+              "name": "IAM ⭐ SSH VPS 2",
+              "type": "SSH",
+              "link": "ssh://server1:1@bilal.sinko7.qzz.io:443?nova_mode=3&nova_sni=bilal.sinko7.qzz.io&nova_proxy_host=104.18.37.127&nova_proxy_port=443&nova_payload=PRI+%2Fcdn-cgi+HTTP%2F1.1+%5Blf%5DHost%3A+video.pscp.tv%5Blf%5D%5Blf%5DACL+%2F+HTTP%2F1.1+%5Blf%5DHost%3A+%5Bhost%5D+%5Bcrlf%5DConnection%3A%5Blf%5DUpgrade%3A+Websocket%5Blf%5D%5Blf%5D&nova_tls_insecure=1&nova_route=server_tls_payload#IAM%20%E2%AD%90%20SSH%20VPS%202",
+              "latencyMs": 1383,
+              "verification": "transport-reachable",
+              "verificationDetail": "ssh-authenticated+forwarding",
+              "checkedAt": "2026-08-21T23:28:25Z",
               "priority": 6
             },
             {
@@ -92,6 +92,28 @@
               "priority": 7
             },
             {
+              "id": "47e1c7f10b7a1bc3",
+              "name": "1787183922635",
+              "type": "TROJAN",
+              "link": "trojan://685ac0c7-304a-4ad1-a10d-906fa871de1d@crazygames.ro:443?security=tls&type=ws&sni=bilal6.arkhilsmarty.co.uk&host=bilal6.arkhilsmarty.co.uk&path=%2Ftrojan-ws#1787183922635",
+              "latencyMs": 1827,
+              "verification": "transport-reachable",
+              "verificationDetail": "tls-ws-transport",
+              "checkedAt": "2026-08-21T23:28:26Z",
+              "priority": 8
+            },
+            {
+              "id": "bba2924ff892afee",
+              "name": "BlLAL lAM ×6 VPS SSH -SSL 🦦",
+              "type": "SSH",
+              "link": "ssh://VUTRi:IYRu@bilal6.arkhilsmarty.co.uk:443?nova_mode=3&nova_sni=dr-az.therocketeustonroad.co.uk&nova_proxy_host=wss01.circus.nl&nova_proxy_port=443&nova_payload=GET+%2Fcdn-cgi%2Ftrace+HTTP%2F1.1%5Bcrlf%5DHost%3Adr-az.therocketeustonroad.co.uk%5Bcrlf%5D%5Bcrlf%5DCF-RAY+%2F+HTTP%2F1.1%5Bcrlf%5DHost%3A+bilal6.arkhilsmarty.co.uk%5Bcrlf%5DUpgrade%3A+Websocket%5Bcrlf%5DConnection%3A+Keep-Alive%5Bcrlf%5DUser-Agent%3AX-DRAGONVIP313%5Bua%5D%5Bcrlf%5DUpgrade%3A+websocket%5Bcrlf%5D%5Bcrlf%5D&nova_tls_insecure=1&nova_route=server_tls#BlLAL%20lAM%20%C3%976%20VPS%20SSH%20-SSL%20%F0%9F%A6%A6",
+              "latencyMs": 1864,
+              "verification": "transport-reachable",
+              "verificationDetail": "ssh-authenticated+forwarding",
+              "checkedAt": "2026-08-21T23:28:26Z",
+              "priority": 9
+            },
+            {
               "id": "53b52204f8d6ef77",
               "name": "IAM ⭐ SSH VPS 2",
               "type": "SSH",
@@ -100,7 +122,29 @@
               "verification": "transport-reachable",
               "verificationDetail": "ssh-authenticated+forwarding",
               "checkedAt": "2026-08-21T23:22:52Z",
-              "priority": 8
+              "priority": 10
+            },
+            {
+              "id": "df039566000d39ad",
+              "name": "BlLAL lAM × 6 VPS SSL 🦦",
+              "type": "SSH",
+              "link": "ssh://VUTRi:IYRu@bilal6.arkhilsmarty.co.uk:443?nova_mode=3&nova_sni=dr-az.therocketeustonroad.co.uk&nova_proxy_host=wss01.circus.nl&nova_proxy_port=443&nova_payload=GET+%2Fcdn-cgi%2Ftrace+HTTP%2F1.1%5Bcrlf%5DHost%3Adr-az.therocketeustonroad.co.uk%5Bcrlf%5D%5Bcrlf%5DCF-RAY+%2F+HTTP%2F1.1%5Bcrlf%5DHost%3A+bilal6.ucastudio.co.uk%5Bcrlf%5DUpgrade%3A+Websocket%5Bcrlf%5DConnection%3A+Keep-Alive%5Bcrlf%5DUser-Agent%3AX-DRAGONVIP313%5Bua%5D%5Bcrlf%5DUpgrade%3A+websocket%5Bcrlf%5D%5Bcrlf%5D&nova_tls_insecure=1&nova_route=server_tls#BlLAL%20lAM%20%C3%97%206%20VPS%20SSL%20%F0%9F%A6%A6",
+              "latencyMs": 1898,
+              "verification": "transport-reachable",
+              "verificationDetail": "ssh-authenticated+forwarding",
+              "checkedAt": "2026-08-21T23:28:26Z",
+              "priority": 11
+            },
+            {
+              "id": "7bb050218f048543",
+              "name": "IAM IP 100 ×6",
+              "type": "SSH",
+              "link": "ssh://xx:xx@up.3vp.site:443?nova_mode=3&nova_sni=up.3vp.site&nova_proxy_host=104.18.41.245&nova_proxy_port=443&nova_payload=GET+%2F+HTTP%2F1.1%5Bcrlf%5DHost%3A+%5Bhost%5D%5Bcrlf%5DConnection%3A+Upgrade%5Bcrlf%5DUpgrade%3A+websocket%5Bcrlf%5D%5Bcrlf%5D&nova_tls_insecure=1&nova_route=server_tls#IAM%20IP%20100%20%C3%976%20",
+              "latencyMs": 2351,
+              "verification": "transport-reachable",
+              "verificationDetail": "ssh-authenticated+forwarding",
+              "checkedAt": "2026-08-21T23:28:26Z",
+              "priority": 12
             }
           ]
         },
@@ -108,8 +152,19 @@
           "operator": "INWI",
           "profileName": "INWI",
           "strategy": "fastest-failover",
-          "candidateCount": 1,
+          "candidateCount": 2,
           "candidates": [
+            {
+              "id": "a54be2da297c30d5",
+              "name": "INWI ⭐ SSH VPS 2",
+              "type": "SSH",
+              "link": "ssh://server1:1@bilal.sinko7.qzz.io:443?nova_mode=1&nova_sni=bilal.sinko7.qzz.io&nova_proxy_host=canary-guest-cf.pscp.tv&nova_proxy_port=8080&nova_payload=GET+%2Fcdn-cgi+HTTP%2F1.1+%5Blf%5DHost%3Adev-guest-cf.pscp.tv%5Blf%5D%5Blf%5DACL+%2F+HTTP%2F1.1+%5Blf%5DHost%3A+%5Bhost%5D+%5Bcrlf%5DConnection%3A%5Blf%5DUpgrade%3A+Websocket%5Blf%5D%5Blf%5D&nova_route=server_tls#INWI%20%E2%AD%90%20SSH%20VPS%202",
+              "latencyMs": 962,
+              "verification": "transport-reachable",
+              "verificationDetail": "ssh-authenticated+forwarding",
+              "checkedAt": "2026-08-21T23:28:27Z",
+              "priority": 1
+            },
             {
               "id": "0b5387d724c7af00",
               "name": "INWI ⭐ SSH VPS 2",
@@ -119,7 +174,7 @@
               "verification": "transport-reachable",
               "verificationDetail": "ssh-authenticated+forwarding",
               "checkedAt": "2026-08-21T23:22:55Z",
-              "priority": 1
+              "priority": 2
             }
           ]
         }
