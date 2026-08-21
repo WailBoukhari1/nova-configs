@@ -2,28 +2,11 @@
  "profiles": [
   {
    "region": [
-    "af",
-    "dz",
-    "au",
-    "co",
-    "eg",
     "et",
     "de",
     "in",
-    "ir",
-    "iq",
-    "jo",
-    "ke",
-    "kw",
     "ma",
     "pk",
-    "ph",
-    "gb",
-    "za",
-    "sy",
-    "tz",
-    "th",
-    "ug",
     "zw"
    ],
    "title": {
@@ -33,8 +16,8 @@
    "sublink": "https://raw.githubusercontent.com/WailBoukhari1/nova-configs/main/subscription.txt",
    "tags": {
     "en": [
-     "29 ISPs",
-     "453 configs",
+     "8 ISPs",
+     "32 configs",
      "Free",
      "Fastest-auto"
     ],
@@ -50,9 +33,9 @@
   }
  ],
  "meta": {
-  "generated": "2026-08-20T16:40:54Z",
-  "isp_groups": 29,
-  "configs": 453,
-  "links": 58
+  "generated": "2026-08-21T15:04:28Z",
+  "isp_groups": 8,
+  "configs": 32,
+  "links": 32
  }
 }
