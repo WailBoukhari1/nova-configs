@@ -1,373 +1,40 @@
 {
   "format": "nova-catalog",
   "version": 2,
-  "generatedAt": "2026-08-21T15:04:28Z",
+  "generatedAt": "2026-08-21T22:37:21Z",
   "refreshIntervalSeconds": 21600,
-  "verificationNote": "Candidates are transport-reachable only; a real tunnel session is verified by the client.",
+  "selectionStrategy": "one-profile-per-isp-fastest-failover",
   "countries": [
-    {
-      "country": "Ethiopia",
-      "operators": [
-        {
-          "operator": "Other",
-          "candidates": [
-            {
-              "id": "cbc3ebb8e38692f1",
-              "name": "ETHO Safaricom በ0 ብር 2",
-              "type": "v2ray",
-              "link": "vless://2d4296a6-7419-42c5-8c96-5abf54e78100@m.youtube.com:443?path=%2FxSylNetDevx&security=tls&encryption=none&host=mlgcp3-1058093532227.europe-west1.run.app&fp=chrome&type=ws&allowInsecure=1&sni=api.safaricom.et#none",
-              "latencyMs": 165,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:04Z"
-            },
-            {
-              "id": "8a8ada3a74fe279e",
-              "name": "ETHO Safaricom  በ0 ብር 1",
-              "type": "v2ray",
-              "link": "vless://9a0afcc5-1baf-41c7-8a4d-625ee1a8156b@m.youtube.com:443?path=%2F&security=tls&encryption=none&host=server2-871155101457.europe-west1.run.app&fp=chrome&type=ws&allowInsecure=1&sni=api.safaricom.et#none",
-              "latencyMs": 172,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:04Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Germany",
-      "operators": [
-        {
-          "operator": "Other",
-          "candidates": [
-            {
-              "id": "bd3b879a429ddd0b",
-              "name": "Germany Aldi New  v2",
-              "type": "v2ray",
-              "link": "vless://f5c215f6-2c65-4d09-bd53-919bcef1b1b9@apps.ayyildiz.de:443?path=%2Fvless%2F&security=tls&encryption=none&host=xrp-page.xrp-page.dynv6.net&fp=randomized&type=ws&allowInsecure=1&sni=xrp-page.xrp-page.dynv6.net#xrp-page.xrp-page.dynv6.net",
-              "latencyMs": 105,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:27Z"
-            },
-            {
-              "id": "bd3b879a429ddd0b",
-              "name": "Germany Ayyildiz New  V2",
-              "type": "v2ray",
-              "link": "vless://f5c215f6-2c65-4d09-bd53-919bcef1b1b9@apps.ayyildiz.de:443?path=%2Fvless%2F&security=tls&encryption=none&host=xrp-page.xrp-page.dynv6.net&fp=randomized&type=ws&allowInsecure=1&sni=xrp-page.xrp-page.dynv6.net#xrp-page.xrp-page.dynv6.net",
-              "latencyMs": 106,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:27Z"
-            },
-            {
-              "id": "4c03521d98ea7e26",
-              "name": "DE  Germany-All network-2026-WS",
-              "type": "v2ray",
-              "link": "vless://799e5fad-6d3b-4214-a58f-f48c8c7af19c@zero.o2online.de:443?path=%2F%3Fed%3D2560&security=tls&encryption=none&host=vip.htet-aung-mc-v4.webredirect.org&fp=randomized&type=ws&sni=vip.htet-aung-mc-v4.webredirect.org#sylnet3",
-              "latencyMs": 138,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:26Z"
-            },
-            {
-              "id": "7f34e1d6a481c69a",
-              "name": "Germany  o2 v2ray",
-              "type": "v2ray",
-              "link": "vless://f5c215f6-2c65-4d09-bd53-919bcef1b1b9@www.o2online.de:443?path=%2Fvless%2F&security=tls&encryption=none&host=xrp-page.xrp-page.dynv6.net&fp=randomized&type=ws&allowInsecure=1&sni=xrp-page.xrp-page.dynv6.net#xrp-page.xrp-page.dynv6.net",
-              "latencyMs": 155,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:27Z"
-            },
-            {
-              "id": "9f5151c537da4aa2",
-              "name": "Germany  AldiTalk v2ray",
-              "type": "v2ray",
-              "link": "vless://f5c215f6-2c65-4d09-bd53-919bcef1b1b9@blau.de:443?path=%2Fvless%2F&security=tls&encryption=none&host=xrp-page.xrp-page.dynv6.net&fp=randomized&type=ws&allowInsecure=1&sni=xrp-page.xrp-page.dynv6.net#xrp-page.xrp-page.dynv6.net",
-              "latencyMs": 175,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:26Z"
-            },
-            {
-              "id": "37d5cf0b55db0261",
-              "name": "Germany Ortel Mobile Free  v2",
-              "type": "v2ray",
-              "link": "vless://f5c215f6-2c65-4d09-bd53-919bcef1b1b9@apps.ortelmobile.de:443?path=%2Fvless%2F&security=tls&encryption=none&host=xrp-page.xrp-page.dynv6.net&fp=randomized&type=ws&allowInsecure=1&sni=xrp-page.xrp-page.dynv6.net#xrp-page.xrp-page.dynv6.net",
-              "latencyMs": 246,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:27Z"
-            },
-            {
-              "id": "0eb04eb6d985e157",
-              "name": "DE  Germany Ayyildiz",
-              "type": "v2ray",
-              "link": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@apps.ayyildiz.de:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#STC%E2%9C%85",
-              "latencyMs": 299,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:26Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "country": "India",
-      "operators": [
-        {
-          "operator": "Other",
-          "candidates": [
-            {
-              "id": "78f78542070cb6e7",
-              "name": "JIO Free-Net New Sni 2",
-              "type": "v2ray",
-              "link": "vless://0d5d9623-ee1a-4198-a3b6-4fcc44b9cb95@myjiostatic.cdn.jio.com:80?path=%2Fgoldadmin&security=none&encryption=none&host=toofandev.com&type=ws#fastly",
-              "latencyMs": 60,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:28Z"
-            },
-            {
-              "id": "a568cf6b953f09d5",
-              "name": "JIO Free-Net New Sni 4",
-              "type": "v2ray",
-              "link": "vless://335844d7-785b-4508-b871-ad96b393f0d7@www.rfhospital.org:80?path=%2Fimran&security=none&encryption=none&host=Shawonvip.dev&type=ws#fastly",
-              "latencyMs": 379,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:29Z"
-            },
-            {
-              "id": "b7b5077827e4f5df",
-              "name": "JIO Free-Net New Sni 3",
-              "type": "v2ray",
-              "link": "vless://0d5d9623-ee1a-4198-a3b6-4fcc44b9cb95@rfhospital.cdn.jio.com:80?path=%2Fgoldadmin&security=none&encryption=none&host=toofandev.com&type=ws#fastly",
-              "latencyMs": 395,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:29Z"
-            },
-            {
-              "id": "a568cf6b953f09d5",
-              "name": "JIO Free-Net New Sni 1",
-              "type": "v2ray",
-              "link": "vless://335844d7-785b-4508-b871-ad96b393f0d7@www.rfhospital.org:80?path=%2Fimran&security=none&encryption=none&host=Shawonvip.dev&type=ws#fastly",
-              "latencyMs": 565,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:55:29Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "country": "KSA",
-      "operators": [
-        {
-          "operator": "Other",
-          "candidates": [
-            {
-              "id": "cb3d77171ef2c542",
-              "name": "KSA  Jawwy Frr (Payload-01)",
-              "type": "v2ray",
-              "link": "vless://a36c66e0-b38a-42db-b647-76cb9e544203@104.16.119.28:443?path=%2F%3Fed003d2560&security=tls&encryption=none&host=po-7ll.pages.dev&type=ws&sni=po-7ll.pages.dev#STC%E2%9C%85",
-              "latencyMs": 165,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:57:41Z"
-            },
-            {
-              "id": "350b5c265b4c6099",
-              "name": "KSA l STC FREE  X-RAY",
-              "type": "v2ray",
-              "link": "vless://f5c215f6-2c65-4d09-bd53-919bcef1b1b9@futurex.nelc.gov.sa:443?path=%2Fvless&security=tls&encryption=none&host=fuckyouthief1.torimairechoodi1.dynv6.net&fp=randomized&type=ws&sni=fuckyouthief1.torimairechoodi1.dynv6.net#ACC%20BackBackengoturk%201%EF%B8%8F%E2%83%A3",
-              "latencyMs": 196,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:57:52Z"
-            },
-            {
-              "id": "1cf1ee4fad8c8246",
-              "name": "KSA l  Zain FREE NEW 2026",
-              "type": "v2ray",
-              "link": "vless://29187857-4a1f-4d1e-88eb-0016771e0dbb@www.secure5gw.ro:443?path=%2F%3Fed%3D2560&security=tls&alpn=h3&encryption=none&host=vless.hubp.de&fp=random&type=ws&sni=vless.hubp.de#%E2%9C%85vless.hubp.de",
-              "latencyMs": 322,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:57:52Z"
-            }
-          ]
-        }
-      ]
-    },
     {
       "country": "Morocco",
       "operators": [
         {
           "operator": "IAM",
+          "profileName": "IAM",
+          "strategy": "fastest-failover",
+          "candidateCount": 2,
           "candidates": [
             {
-              "id": "6e41da4a0acf0e4a",
-              "name": "IAM *6 IP 10 FIX2",
-              "type": "v2ray",
-              "link": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@cloudapi.snap.com:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#STC%E2%9C%85",
-              "latencyMs": 123,
+              "id": "47e1c7f10b7a1bc3",
+              "name": "1787183922635",
+              "type": "TROJAN",
+              "link": "trojan://685ac0c7-304a-4ad1-a10d-906fa871de1d@crazygames.ro:443?security=tls&type=ws&sni=bilal6.arkhilsmarty.co.uk&host=bilal6.arkhilsmarty.co.uk&path=%2Ftrojan-ws#1787183922635",
+              "latencyMs": 527,
               "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:58:28Z"
+              "verificationDetail": "tls-ws-transport",
+              "checkedAt": "2026-08-21T22:32:57Z",
+              "priority": 1
             },
             {
-              "id": "f2ac229b4bf0f0ea",
-              "name": "IAM *6 IP 10 FIX3",
-              "type": "v2ray",
-              "link": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@bestoftweets-dev.twitter.com:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#STC%E2%9C%85",
-              "latencyMs": 200,
+              "id": "0c380b420cb65e43",
+              "name": "BlLAL lAM ×6 VPS SSL -SSH 🦦",
+              "type": "SSH",
+              "link": "ssh://VUTRi:IYRu@bilal6.arkhilsmarty.co.uk:443?nova_mode=3&nova_sni=bilal6.arkhilsmarty.co.uk&nova_proxy_host=wss01.circus.nl&nova_proxy_port=443&nova_payload=GET+%2Fcdn-cgi%2Ftrace+HTTP%2F1.1%5Bcrlf%5DHost%3Adr-az.therocketeustonroad.co.uk%5Bcrlf%5D%5Bcrlf%5DCF-RAY+%2F+HTTP%2F1.1%5Bcrlf%5DHost%3A+bilal6.arkhilsmarty.co.uk%5Bcrlf%5DUpgrade%3A+Websocket%5Bcrlf%5DConnection%3A+Keep-Alive%5Bcrlf%5DUser-Agent%3AX-DRAGONVIP313%5Bua%5D%5Bcrlf%5DUpgrade%3A+websocket%5Bcrlf%5D%5Bcrlf%5D&nova_tls_insecure=1&nova_route=server_tls#BlLAL%20lAM%20%C3%976%20VPS%20SSL%20-SSH%20%F0%9F%A6%A6",
+              "latencyMs": 35663,
               "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T14:58:28Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Other",
-      "operators": [
-        {
-          "operator": "Other",
-          "candidates": [
-            {
-              "id": "ad3d912e4d589425",
-              "name": "Telenor Snapchat Pack  GCP Server 1",
-              "type": "v2ray",
-              "link": "vless://ef19f228-dd4b-4b40-bccc-6c3d53cacfa5@api.snapchat.com:443?path=%2Fbhtunnel108&security=tls&encryption=none&host=project2xx-646064522682.europe-west2.run.app&type=ws&sni=api.snapchat.com#Free",
-              "latencyMs": 100,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:33Z"
-            },
-            {
-              "id": "2b6443892737d283",
-              "name": "Kenya  (SafaricomUnl)  X-ray",
-              "type": "v2ray",
-              "link": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.242.118:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#STC%E2%9C%85",
-              "latencyMs": 111,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:33Z"
-            },
-            {
-              "id": "5e2460a9b413386f",
-              "name": "Jawwy Free-Net 30 X-ray",
-              "type": "v2ray",
-              "link": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@104.16.119.28:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#STC%E2%9C%85",
-              "latencyMs": 164,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:33Z"
-            },
-            {
-              "id": "d66818b93c558924",
-              "name": "Esim Ubigi New V2ray",
-              "type": "v2ray",
-              "link": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@toyota.ubigi.com:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#STC%E2%9C%85",
-              "latencyMs": 209,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:29Z"
-            },
-            {
-              "id": "6f8685e5501a6ce4",
-              "name": "TSELL opokk  V2ray",
-              "type": "v2ray",
-              "link": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@app-stg.gopay.co.id:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#STC%E2%9C%85",
-              "latencyMs": 221,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:33Z"
-            },
-            {
-              "id": "f78f5b69f63b1d93",
-              "name": "Zimbabwe Zol One Tap Connect",
-              "type": "v2ray",
-              "link": "vless://7b0e8c34-3412-41e2-b4a1-7fd7d9b5daf9@Zol.zigssh.com:443?path=%2Fsg-ovh&security=tls&encryption=none&host=collection.linefriends.com.tn1rr.qzz.io&type=ws&sni=collection.linefriends.com.tn1rr.qzz.io#STC%E2%9C%85",
-              "latencyMs": 231,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:34Z"
-            },
-            {
-              "id": "ad3d912e4d589425",
-              "name": "Ooredoo Snapchat YouTube Dz Gcp",
-              "type": "v2ray",
-              "link": "vless://ef19f228-dd4b-4b40-bccc-6c3d53cacfa5@api.snapchat.com:443?path=%2Fbhtunnel108&security=tls&encryption=none&host=project2xx-646064522682.europe-west2.run.app&type=ws&sni=api.snapchat.com#Free",
-              "latencyMs": 303,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:33Z"
-            },
-            {
-              "id": "ca642e849cf8a5ce",
-              "name": "Spotify Package",
-              "type": "v2ray",
-              "link": "trojan://MlC8i1BneA@gr.hmacreation.com:443?security=tls&alpn=h3%2Ch2%2Chttp%2F1.1&headerType=none&fp=chrome&type=tcp&sni=open.spotify.com#63j6tm9b",
-              "latencyMs": 367,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:33Z"
-            },
-            {
-              "id": "c60505fa47f4182e",
-              "name": "Zimbabwe Eco-Net Free ( V2ray)",
-              "type": "v2ray",
-              "link": "vless://f5c215f6-2c65-4d09-bd53-919bcef1b1b9@econetwireless.co.za:443?path=%2Fvless%2F&security=tls&encryption=none&host=xrp-page.xrp-page.dynv6.net&fp=randomized&type=ws&allowInsecure=1&sni=xrp-page.xrp-page.dynv6.net#xrp-page.xrp-page.dynv6.net",
-              "latencyMs": 401,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:34Z"
-            },
-            {
-              "id": "742eb65dc4e0a202",
-              "name": "South Africa  MTN Unlimited V2ray",
-              "type": "v2ray",
-              "link": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@southafrica05.connection-checker.com:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#STC%E2%9C%85",
-              "latencyMs": 599,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:33Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Pakistan",
-      "operators": [
-        {
-          "operator": "Other",
-          "candidates": [
-            {
-              "id": "e1d56fccd7d14785",
-              "name": "PAK l  ONIC Free-Net  1 X-ray",
-              "type": "v2ray",
-              "link": "vless://f5c215f6-2c65-4d09-bd53-919bcef1b1b9@onic.pk:443?path=%2Fvless%2F&security=tls&encryption=none&host=xrp-page.xrp-page.dynv6.net&fp=randomized&type=ws&allowInsecure=1&sni=xrp-page.xrp-page.dynv6.net#xrp-page.xrp-page.dynv6.net",
-              "latencyMs": 109,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:40Z"
-            },
-            {
-              "id": "c1d1d5b4e444acf3",
-              "name": "PAK  ONIC 1",
-              "type": "v2ray",
-              "link": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@onic.pk:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#STC%E2%9C%85",
-              "latencyMs": 275,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:40Z"
-            },
-            {
-              "id": "c1d1d5b4e444acf3",
-              "name": "PAK  ONIC 2",
-              "type": "v2ray",
-              "link": "vless://6202b230-417c-4d8e-b624-0f71afa9c75d@onic.pk:443?path=%2F%3Fed&security=tls&encryption=none&host=sni.111000.indevs.in&type=ws&sni=sni.111000.indevs.in#STC%E2%9C%85",
-              "latencyMs": 279,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:00:40Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "country": "Zimbabwe",
-      "operators": [
-        {
-          "operator": "Other",
-          "candidates": [
-            {
-              "id": "c60505fa47f4182e",
-              "name": "Zim Eco-Net Free V2ray 0",
-              "type": "v2ray",
-              "link": "vless://f5c215f6-2c65-4d09-bd53-919bcef1b1b9@econetwireless.co.za:443?path=%2Fvless%2F&security=tls&encryption=none&host=xrp-page.xrp-page.dynv6.net&fp=randomized&type=ws&allowInsecure=1&sni=xrp-page.xrp-page.dynv6.net#xrp-page.xrp-page.dynv6.net",
-              "latencyMs": 96,
-              "verification": "transport-reachable",
-              "checkedAt": "2026-08-21T15:01:52Z"
+              "verificationDetail": "ssh-authenticated+forwarding",
+              "checkedAt": "2026-08-21T22:33:33Z",
+              "priority": 2
             }
           ]
         }
