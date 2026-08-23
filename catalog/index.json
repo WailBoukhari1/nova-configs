@@ -1,7 +1,7 @@
 {
   "format": "nova-catalog",
   "version": 2,
-  "generatedAt": "2026-08-23T18:25:43Z",
+  "generatedAt": "2026-08-23T23:44:36Z",
   "refreshIntervalSeconds": 21600,
   "selectionStrategy": "one-profile-per-isp-fastest-failover",
   "countries": [
@@ -37,6 +37,26 @@
               "verificationDetail": "tls-ws-transport",
               "checkedAt": "2026-08-23T11:57:24Z",
               "priority": 2
+            }
+          ]
+        },
+        {
+          "operator": "INWI",
+          "profileName": "INWI",
+          "strategy": "fastest-failover",
+          "candidateCount": 1,
+          "candidates": [
+            {
+              "id": "8183ff300de94d8f",
+              "name": "inwi 5 day",
+              "type": "SSH",
+              "link": "ssh://fm9_7362275436:NQuS%23%25T7s6v8%25w2uv9@ssh.ethiodragon.sbs:80?nova_mode=1&nova_proxy_host=video-cf.twimg.com&nova_proxy_port=8080&nova_payload=GET+%2Fcdn-cgi+HTTP%2F1.1+%5Blf%5DHost%3Adev-guest-cf.pscp.tv%5Blf%5D%5Blf%5DACL+%2F+HTTP%2F1.1+%5Blf%5DHost%3A+%5Bhost%5D+%5Bcrlf%5DConnection%3A%5Blf%5DUpgrade%3A+Websocket%5Blf%5D%5Blf%5D&nova_route=server_payload#inwi%205%20day",
+              "compatibility": "nova-grouped-catalog-v8",
+              "latencyMs": 2699,
+              "verification": "transport-reachable",
+              "verificationDetail": "ssh-authenticated+forwarding",
+              "checkedAt": "2026-08-23T20:38:35Z",
+              "priority": 1
             }
           ]
         },
